@@ -1,8 +1,8 @@
 import axios from "axios";
 
-// const BACKEND_URL = "https://fpay1.vercel.app/api/v1";
+const BACKEND_URL = "https://swiftpay1.vercel.app/api/v1";
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_BACKEND_URL,
+    baseURL: BACKEND_URL,
     withCredentials: true,
 })
 
